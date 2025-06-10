@@ -1,0 +1,22 @@
+{
+  "name": "modulairhr",
+  "version": "1.0.0",
+  "description": "ModulairHR project",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.html",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.html --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "eslint": "^8.57.0",
+    "@eslint/js": "^9.0.0",
+    "eslint-plugin-html": "^8.0.0"
+  }
+} 
