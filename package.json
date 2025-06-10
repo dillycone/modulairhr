@@ -2,21 +2,37 @@
   "name": "modulairhr",
   "version": "1.0.0",
   "description": "ModulairHR project",
-  "main": "index.html",
   "scripts": {
-    "start": "serve .",
-    "dev": "serve .",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.html",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.html --fix",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^14.2.1",
-    "eslint": "^8.57.0",
     "@eslint/js": "^9.0.0",
-    "eslint-plugin-html": "^8.0.0"
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.3.3",
+    "eslint-plugin-html": "^8.0.0",
+    "postcss": "^8.5.4",
+    "serve": "^14.2.1",
+    "tailwindcss": "^4.1.8",
+    "@tailwindcss/postcss": "^4.1.8"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
   }
-} 
+}

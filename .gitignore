@@ -5,6 +5,7 @@ npm-debug.log*
 # Build outputs
 dist/
 build/
+.next/
 
 # Environment variables
 .env
@@ -30,4 +31,7 @@ Thumbs.db
 
 # Logs
 logs
-*.log 
+*.log
+
+# Claude Code
+.claude/ 
