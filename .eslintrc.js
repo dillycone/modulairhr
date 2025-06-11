@@ -1,10 +1,13 @@
 module.exports = {
-  extends: ['next/core-web-vitals'],
+  extends: [
+    'next/core-web-vitals',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended', // 💅 keeps ESLint & Prettier in sync
+  ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
+  // Formatting rules removed – Prettier handles these
   rules: {
-    semi: ['error', 'always'],
-    quotes: ['error', 'single'],
-    indent: ['error', 2],
+    // Add any *non-formatting* ESLint rules here
   },
 };
