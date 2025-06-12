@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    turbo: true, // use the Rust-based compiler
-  },
+  // Turbopack is now stable and enabled by default in Next.js 15
 }
 
 module.exports = nextConfig

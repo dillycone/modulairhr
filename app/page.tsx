@@ -5,8 +5,6 @@ export const metadata: Metadata = {
   title: 'ModulairHR – Performance Improvement',
 }
 
-export const runtime = 'edge'
-
 const Hero = dynamic(() => import('@/components/Hero'), {
   loading: () => <div className="min-h-screen bg-white" />,
 })
