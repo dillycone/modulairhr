@@ -1,7 +1,7 @@
 {
-  "name": "hello-world",
+  "name": "modulairhr",
   "version": "1.0.0",
-  "description": "Minimal Next.js Hello World",
+  "description": "Modern performance management platform",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

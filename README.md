@@ -28,9 +28,15 @@ pnpm start
 
 ## Scripts
 
-- `pnpm lint` - Run ESLint
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint with strict mode
+- `pnpm typecheck` - Run TypeScript type checking
 - `pnpm format` - Format code with Prettier
-- `pnpm tsc --noEmit` - Type check
+- `pnpm test` - Run tests in watch mode
+- `pnpm test:run` - Run tests once
+- `pnpm test:coverage` - Generate test coverage report
 
 ## Features
 
@@ -43,7 +49,7 @@ pnpm start
 
 ## Development
 
-Uses Node.js 20.11.1 (see `.nvmrc`). Pre-commit hooks ensure code quality.
+Pre-commit hooks ensure code quality with automatic Prettier formatting.
 
 ---
 
