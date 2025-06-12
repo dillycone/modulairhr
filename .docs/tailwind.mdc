@@ -1,11 +1,8 @@
 ---
-description:
-globs:
-alwaysApply: false
----
----
+title: Tailwind CSS Style Guide
 description: This rule explains Tailwind CSS conventions, utility classes, and best practices for modern UI development.
-globs: *
+date: 2025-01-06
+globs: '*'
 alwaysApply: false
 ---
 

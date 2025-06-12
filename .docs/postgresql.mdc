@@ -1,10 +1,7 @@
 ---
-description:
-globs:
-alwaysApply: false
----
----
+title: PostgreSQL Database Design Patterns
 description: This rule explains PostgreSQL database design patterns and advanced features usage.
+date: 2025-01-06
 globs: **/*.sql
 alwaysApply: false
 ---

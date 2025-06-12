@@ -1,0 +1,41 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":dependencyDashboard",
+    ":pinVersions",
+    "group:recommended",
+    "schedule:weekly"
+  ],
+  "assignees": ["bc"],
+  "packageRules": [
+    {
+      "groupName": "dev dependencies",
+      "matchDepTypes": ["devDependencies"],
+      "groupSlug": "dev"
+    },
+    {
+      "groupName": "production dependencies",
+      "matchDepTypes": ["dependencies"],
+      "groupSlug": "prod"
+    },
+    {
+      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
+      "groupName": "react",
+      "groupSlug": "react"
+    },
+    {
+      "matchPackageNames": ["next", "eslint-config-next"],
+      "groupName": "next.js",
+      "groupSlug": "nextjs"
+    }
+  ],
+  "prConcurrentLimit": 3,
+  "rangeStrategy": "auto",
+  "semanticCommits": "enabled",
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "platformAutomerge": true,
+  "schedule": ["after 9am and before 5pm every weekday", "every weekend"]
+}

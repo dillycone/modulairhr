@@ -1,5 +1,7 @@
 ---
+title: React Component Patterns & Best Practices
 description: This rule explains React component patterns, hooks usage, and best practices.
+date: 2025-01-06
 globs: **/*.jsx,**/*.tsx
 alwaysApply: false
 ---
